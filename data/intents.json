@@ -1,0 +1,19 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hello", "hi", "hey", "good morning", "greetings"],
+      "responses": ["Hello! Welcome to DecodeLabs AI support. How can I assist you today?"]
+    },
+    {
+      "tag": "help",
+      "patterns": ["help", "support", "assist", "what can you do"],
+      "responses": ["I can assist you with system status, project guidelines, or basic Q&A."]
+    },
+    {
+      "tag": "exit",
+      "patterns": ["exit", "quit", "bye", "goodbye", "stop"],
+      "responses": ["Goodbye! Thank you for contacting DecodeLabs."]
+    }
+  ]
+}
